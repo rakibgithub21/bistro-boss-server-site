@@ -29,7 +29,7 @@ async function run() {
         const cartCollection = client.db('bistroDB').collection('carts');
         // -----------------------------------------------------------------
 
-        // menu collection:-----------------------------------
+        // menu collection:------------------------------------
 
 
         app.get('/menu', async (req, res) => {
